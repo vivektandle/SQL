@@ -1,1 +1,3 @@
 SELECT ename FROM Employee;
+-- WAQTD ALL THE DETAILS OF THE EMPLOYEES ALONG WITH AN ANNUALBONUS OF 2000.
+SELECT *, (sal * 12) + 2000 AS annual_salary_with_bonus FROM employee;
