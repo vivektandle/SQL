@@ -50,3 +50,8 @@ FROM EMPLOYEE
 WHERE JOB ='CLERK' AND ( DEPTNO = 10 OR
 DEPTNO = 20 AND DEPTNO = 30 ) ;
 
+-- WAQTD NAMES OF ALL THE EMPLOYEES 
+select ename from employee;
+
+-- .WAQTD NAME AND SALARY GIVEN TO ALL THE EMPLOYEES
+select ename, sal from employee;
