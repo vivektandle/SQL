@@ -55,3 +55,9 @@ select ename from employee;
 
 -- .WAQTD NAME AND SALARY GIVEN TO ALL THE EMPLOYEES
 select ename, sal from employee;
+
+-- .WAQTD NAME AND COMMISSION GIVEN TO ALL THE EMPLOYEES.
+select ename, comm from employee;
+
+-- WAQTD EMPLOYEE ID AND DEPARTMENT NUMBER OF ALL THE EMPLOYEES
+select empno, deptno from employee;
