@@ -47,3 +47,5 @@ select ename, sal*0.25 from employee;
 -- WAQTD NAME AND ANNUAL SALARY WITH DEDUCTION OF 10%.
 select ename, (sal*12)-0.10 from employee;
 
+-- WAQTD TOTAL SALARY GIVEN TO EACH EMPLOYEE (SAL+COMM)
+select sal+comm as total_Salary from employee;
