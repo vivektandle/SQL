@@ -34,3 +34,6 @@ select dname from dept;
 
 -- WAQTD NAME OF THE EMPLOYEE ALONG WITH THEIR ANNUAL SALARY
 select ename, sal*12 as anuual_Salary  from employee;
+
+-- WAQTD NAME SALARY AND SALARY WITH A HIKE OF 10%
+select ename, sal+0.5 as sal_hiked from employee;
