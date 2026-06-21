@@ -43,3 +43,7 @@ select  (sal*12)+2000  as increased_sal from employee ;
 
 -- WAQTD NAME AND SALARY WITH DEDUCTION OF 25%. 
 select ename, sal*0.25 from employee;
+
+-- WAQTD NAME AND ANNUAL SALARY WITH DEDUCTION OF 10%.
+select ename, (sal*12)-0.10 from employee;
+
