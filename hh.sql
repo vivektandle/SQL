@@ -31,3 +31,6 @@ select dname from dept;
 
 -- WAQTD DNAMES PRESENT IN DEPARTMENT TABLE
 select dname from dept;
+
+-- WAQTD NAME OF THE EMPLOYEE ALONG WITH THEIR ANNUAL SALARY
+select ename, sal*12 as anuual_Salary  from employee;
