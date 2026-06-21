@@ -57,4 +57,7 @@ select *, sal*12 as annual_salary from employee;
 select ename, job, sal+100 as penalty_salary from employee;
 
 -- WAQTD all the details of the employee along with annual salary 
-select employee.* , sal*12 From employee ; 
+select employee.* , sal*12 From employee ;
+
+-- WAQTD DETAILS OF THE EMPLOYEES WORKING AS CLERK AND EARNING LESS THAN 1500 
+select employee.* from employee where sal< job="CLERK" and sal<1500;
