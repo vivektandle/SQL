@@ -49,3 +49,6 @@ select ename, (sal*12)-0.10 from employee;
 
 -- WAQTD TOTAL SALARY GIVEN TO EACH EMPLOYEE (SAL+COMM)
 select sal+comm as total_Salary from employee;
+
+-- WAQTD DETAILS OF ALL THE EMPLOYEES ALONG WITH ANNUAL SALARY.
+select *, sal*12 as annual_salary from employee;
