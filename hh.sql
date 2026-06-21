@@ -25,3 +25,9 @@ select ename, job from employee;
 
 -- WAQTD NAME , JOB AND SALARY GIVEN ALL THE EMPLOYEES.  
 select ename, job, sal from employee;
+
+-- WAQTD DNAMES PRESENT IN DEPARTMENT TABLE
+select dname from dept;
+
+-- WAQTD DNAMES PRESENT IN DEPARTMENT TABLE
+select dname from dept;
