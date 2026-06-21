@@ -52,3 +52,6 @@ select sal+comm as total_Salary from employee;
 
 -- WAQTD DETAILS OF ALL THE EMPLOYEES ALONG WITH ANNUAL SALARY.
 select *, sal*12 as annual_salary from employee;
+
+-- WAQTD NAME AND DESIGNATION ALONG WITH 100 PENALTY IN SALARY.
+select ename, job, sal+100 as penalty_salary from employee;
