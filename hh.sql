@@ -40,3 +40,6 @@ select ename, sal+0.5 as sal_hiked from employee;
 
 -- WAQTD ALL THE DETAILS OF THE EMPLOYEES ALONG WITH AN ANNUALBONUS OF 2000
 select  (sal*12)+2000  as increased_sal from employee ;
+
+-- WAQTD NAME AND SALARY WITH DEDUCTION OF 25%. 
+select ename, sal*0.25 from employee;
