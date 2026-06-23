@@ -73,3 +73,6 @@ select sal from employee where job='SALESMAN';
 
 -- .WAQTD DETAILS OF THE EMP WHO EARNS MORE THAN 2000
 select * from employee where sal>2000;
+
+-- WAQTD DETAILS OF THE EMP WHOS NAME IS JONES
+select * from employee where ename="JONES";
