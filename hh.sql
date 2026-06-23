@@ -76,3 +76,7 @@ select * from employee where sal>2000;
 
 -- WAQTD DETAILS OF THE EMP WHOS NAME IS JONES
 select * from employee where ename="JONES";
+
+-- WAQTD DETAILS OF THE EMP WHO WAS HIRED AFTER 01-JAN-81
+-- select * from employee where hiredate > '01-JAN-81'
+SELECT * FROM employee WHERE hiredate > '1981-01-01';
