@@ -78,5 +78,7 @@ select * from employee where sal>2000;
 select * from employee where ename="JONES";
 
 -- WAQTD DETAILS OF THE EMP WHO WAS HIRED AFTER 01-JAN-81
--- select * from employee where hiredate > '01-JAN-81'
 SELECT * FROM employee WHERE hiredate > '1981-01-01';
+
+-- WAQTD NAME AND SAL ALONG WITH HIS ANNUAL SALARY IF THE ANNUAL SALARY IS MORE THAN 12000
+select ename, sal, sal*12 as annual_salary from employee where sal*12 > 12000;
