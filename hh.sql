@@ -82,3 +82,9 @@ SELECT * FROM employee WHERE hiredate > '1981-01-01';
 
 -- WAQTD NAME AND SAL ALONG WITH HIS ANNUAL SALARY IF THE ANNUAL SALARY IS MORE THAN 12000
 select ename, sal, sal*12 as annual_salary from employee where sal*12 > 12000;
+
+-- WAQTD EMPNO OF THE EMPLOYEES WHO ARE WORKING IN DEPT 30 
+select empno from employee where deptno = 30;
+
+-- WAQTD ENAME AND HIREDATE IF THEY ARE HIRED BEFORE 1981
+select ename, hiredate from employee where hiredate < '1981-01-01';
