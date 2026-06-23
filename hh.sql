@@ -70,3 +70,6 @@ select ename from employee where job = "CLERK";
 
 -- WAQTD SALARY OF THE EMPLOYEES WHO ARE WORKING AS SALESMAN
 select sal from employee where job='SALESMAN';
+
+-- .WAQTD DETAILS OF THE EMP WHO EARNS MORE THAN 2000
+select * from employee where sal>2000;
