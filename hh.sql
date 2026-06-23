@@ -88,3 +88,6 @@ select empno from employee where deptno = 30;
 
 -- WAQTD ENAME AND HIREDATE IF THEY ARE HIRED BEFORE 1981
 select ename, hiredate from employee where hiredate < '1981-01-01';
+
+-- WAQTD DETAILS OF THE EMPLOYEES WORKING AS MANAGER
+select ename from employee where job = 'MANAGER';
