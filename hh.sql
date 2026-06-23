@@ -64,3 +64,6 @@ select employee.* from employee where sal< job="CLERK" and sal<1500;
 
 -- WAQTD THE ANNUAL SALARY OF THE EMPLOYEE WHOS NAME IS SMITH
 select  sal*12 as annual_salary from employee where ename="SMITH";
+
+-- WAQTD NAME OF THE EMPLOYEES WORKING AS CLERK
+select ename from employee where job = "CLERK";
