@@ -91,3 +91,6 @@ select ename, hiredate from employee where hiredate < '1981-01-01';
 
 -- WAQTD DETAILS OF THE EMPLOYEES WORKING AS MANAGER
 select ename from employee where job = 'MANAGER';
+
+-- WAQTD NAME AND SALARY GIVEN TO AN EMPLOYEE IF EMPLOYEE EARNS A COMMISSION OF RUPEES 1400 
+select ename, sal from employee where comm = 1400;
