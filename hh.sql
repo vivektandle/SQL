@@ -103,3 +103,6 @@ select empno from employee where hiredate < '1987-01-01';
 
 -- WAQTD DETAILS OF EMPLOYEES WORKING AS AN ANALYST
 select employee.* from employee where job='ANALYST';
+
+-- WAQTD DETAILS OF EMPS EARNING MORE THAN 2000 RUPEES PER MONTH
+select * from employee where sal>2000;
