@@ -106,3 +106,6 @@ select employee.* from employee where job='ANALYST';
 
 -- WAQTD DETAILS OF EMPS EARNING MORE THAN 2000 RUPEES PER MONTH
 select * from employee where sal>2000;
+
+-- WAQTD name and deptno of the employees hired After '01-JAN-87'
+select ename, deptno from employee where hiredate >'1987-01-01';
