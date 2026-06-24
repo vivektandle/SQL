@@ -100,3 +100,6 @@ select * from employee where comm > sal;
 
 -- WAQTD EMPNO OF EMPLOYEES HIRED BEFORE THE YEAR 87
 select empno from employee where hiredate < '1987-01-01';
+
+-- WAQTD DETAILS OF EMPLOYEES WORKING AS AN ANALYST
+select employee.* from employee where job='ANALYST';
