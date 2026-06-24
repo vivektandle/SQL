@@ -94,3 +94,6 @@ select ename from employee where job = 'MANAGER';
 
 -- WAQTD NAME AND SALARY GIVEN TO AN EMPLOYEE IF EMPLOYEE EARNS A COMMISSION OF RUPEES 1400 
 select ename, sal from employee where comm = 1400;
+
+-- WAQTD DETAILS OF EMPLOYEES HAVING COMMISSION MORE THAN SALARY
+select * from employee where comm > sal;
