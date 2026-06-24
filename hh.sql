@@ -97,3 +97,6 @@ select ename, sal from employee where comm = 1400;
 
 -- WAQTD DETAILS OF EMPLOYEES HAVING COMMISSION MORE THAN SALARY
 select * from employee where comm > sal;
+
+-- WAQTD EMPNO OF EMPLOYEES HIRED BEFORE THE YEAR 87
+select empno from employee where hiredate < '1987-01-01';
