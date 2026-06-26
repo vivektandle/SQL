@@ -111,4 +111,7 @@ select * from employee where sal>2000;
 select ename, deptno from employee where hiredate >'1987-01-01';
 
 -- WAQTD name and hiredate of the employees hired before 31-JUL-88 
-select ename, hiredate from employee where hiredate > '1988-07-31';
+select ename, hiredate from employee where hiredate < '1988-07-31';
+
+-- WAQTD name and deptno along with job for the employee working in dept 10
+select ename, deptno, job from employee where deptno=10;
