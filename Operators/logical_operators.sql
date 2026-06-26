@@ -20,3 +20,4 @@ select ename, sal,deptno from employee where sal>1250 and sal<4000 and deptno=20
 select ename, job , deptno from employee where job='MANAGER' or deptno=10 or deptno=30;
 
 -- test messgae
+-- test 2
