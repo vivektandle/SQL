@@ -23,6 +23,6 @@ select ename, job , deptno from employee where job='MANAGER' or deptno=10 or dep
 -- test 2
 --- test 
 -- test 3
-
+-- wehh
 -- test 
 --testtt ss
