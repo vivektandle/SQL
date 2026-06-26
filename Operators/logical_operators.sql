@@ -18,3 +18,5 @@ select ename, sal,deptno from employee where sal>1250 and sal<4000 and deptno=20
 
 -- WAQTD name , job , deptno of the employees working as a manager in dept 10 or 30 .
 select ename, job , deptno from employee where job='MANAGER' or deptno=10 or deptno=30;
+
+-- test messgae

@@ -5,12 +5,9 @@ echo Git Status
 echo ==========================
 git status
 
-echo.
 git add .
 
-set /p msg=Enter commit message:
-
-git commit -m "%msg%"
+git commit -m "Updated SQL files"
 
 git push origin main
 
