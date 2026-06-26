@@ -18,3 +18,11 @@ select ename, sal,deptno from employee where sal>1250 and sal<4000 and deptno=20
 
 -- Test change 
 -- Test change2
+
+-- Test change 
+-- Test change2
+
+-- Test change 
+-- Test change2
+
+-- changes done now new
