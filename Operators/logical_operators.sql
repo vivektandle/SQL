@@ -31,3 +31,7 @@ select ename, job , deptno from employee where job='MANAGER' or deptno=10 or dep
 -- test
 
 -- test 200
+
+
+-- WAQTD name , job and deptno of the employees working as clerk or manager in dept 10 .
+select ename, job , deptno from employee where job='CLERK' or job='MANAGER' and deptno=10;
