@@ -35,3 +35,6 @@ select ename, job , deptno from employee where job='MANAGER' or deptno=10 or dep
 
 -- WAQTD name , job and deptno of the employees working as clerk or manager in dept 10 .
 select ename, job , deptno from employee where job='CLERK' or job='MANAGER' and deptno=10;
+
+-- WAQTD name , job , deptno , sal of the employees working as clerk or salesman in dept 10 or 30 and earning more than 1800 .
+select ename, job, deptno, sal from employee where (job='CLERK' or Job='SALESMAN') and (deptno=10 or deptno=30) and sal>1800;
