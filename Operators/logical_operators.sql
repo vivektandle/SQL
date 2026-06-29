@@ -48,3 +48,6 @@ select ename, hiredate from employee where job='MANAGER' and deptno=30;
 
 -- .WAQTD DETAILS OF THE EMP ALONG WITH ANNUAL SALARY IF THEY ARE WORKING INDEPT 30 AS SALESMAN AND THEIR ANNUAL SALARY HAS TO BE GREATER THAN 14000 
 select employee.*, sal*12 as annual_salary from employee where deptno=30 and job='SALESMAN' and annual_salary>14000;
+
+-- 4.WAQTD ALL THE DETAILS OF THE EMP WORKING IN DEPT 30 OR AS ANALYST
+select * from employee where deptno=30 or job='ANALYST';
