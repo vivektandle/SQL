@@ -60,3 +60,6 @@ select ename, sal, sal*12 as annual_salary, deptno from employee where deptno=20
 
 -- 7.WAQTD EMPNO AND NAMES OF THE EMPLOYEES WORKING AS MANAGER IN DEPT 20
 select empno, ename, from employee where job='MANAGER';
+
+-- 8.WAQTD DETAILS OF EMPLOYEES WORKING IN DEPT 20 OR 30
+select * from employee where deptno=20 or deptno=30;
