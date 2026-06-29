@@ -66,3 +66,6 @@ select * from employee where deptno=20 or deptno=30;
 
 -- 9.WAQTD DETAILS OF EMPLOYEES WORKING AS ANALYST IN DEPT 10
 select * from employee where job='ANALYST' and deptno=10;
+
+-- 10.WAQTD DETAILS OF EMPLOYEE WORKING AS PRESIDENT WITH SALARY OF RUPEES 4000
+select * from employee where job='PRESIDENT' and sal=4000;
