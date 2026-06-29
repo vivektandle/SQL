@@ -78,3 +78,6 @@ select * from employee where (job='CLERK' or job='MANAGER') and deptno=10;
 
 -- 13. WAQTD NAMES OF EMPLOYEES WORKING IN DEPT 10 , 20 , 30 , 40
 select ename from employee where deptno= 10 or deptno=20 or deptno=30 or deptno=40;
+
+-- 14. WAQTD DETAILS OF EMPLOYEES WITH EMPNO 7902, 7839
+select * from employee where empno=7902 and empno=7839;
