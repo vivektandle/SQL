@@ -85,3 +85,5 @@ select * from employee where empno=7902 and empno=7839;
 -- 15. WAQTD DETAILS OF EMPLOYEES WORKING AS MANAGER OR SALESMAN OR CLERK
 select * from employee where job='MANAGER' or job='SALESMAN' or job='CLERK';
 
+-- 16.WAQTD NAMES OF EMPLOYEES HIRED AFTER 81 AND BEFORE 87
+select ename from employee where hiredate = '1998-12-31' and hiredate<'1987-01-01';
