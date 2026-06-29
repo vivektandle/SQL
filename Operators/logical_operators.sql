@@ -57,3 +57,6 @@ select ename from employee where sal<1100 and job='CLERK';
 
 -- 6.WAQTD NAME AND SAL , ANNUAL SAL AND DEPTNO IF DEPTNO IS 20 EARNING MORE THAN 1100 AND ANNUAL SALARY EXCEEDS 12000
 select ename, sal, sal*12 as annual_salary, deptno from employee where deptno=20 and sal>1100 and annual_salary >12000;
+
+-- 7.WAQTD EMPNO AND NAMES OF THE EMPLOYEES WORKING AS MANAGER IN DEPT 20
+select empno, ename, from employee where job='MANAGER';
