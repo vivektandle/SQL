@@ -51,3 +51,6 @@ select employee.*, sal*12 as annual_salary from employee where deptno=30 and job
 
 -- 4.WAQTD ALL THE DETAILS OF THE EMP WORKING IN DEPT 30 OR AS ANALYST
 select * from employee where deptno=30 or job='ANALYST';
+
+-- WAQTD NAMES OF THE EMPMLOYEES WHOS SALARY IS LESS THAN 1100 AND THEIR DESIGNATION IS CLERK 
+select ename from employee where sal<1100 and job='CLERK';
