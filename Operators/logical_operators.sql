@@ -63,3 +63,6 @@ select empno, ename, from employee where job='MANAGER';
 
 -- 8.WAQTD DETAILS OF EMPLOYEES WORKING IN DEPT 20 OR 30
 select * from employee where deptno=20 or deptno=30;
+
+-- 9.WAQTD DETAILS OF EMPLOYEES WORKING AS ANALYST IN DEPT 10
+select * from employee where job='ANALYST' and deptno=10;
