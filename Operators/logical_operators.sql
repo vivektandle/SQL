@@ -41,3 +41,7 @@ select ename, job, deptno, sal from employee where (job='CLERK' or Job='SALESMAN
 
 -- WAQTD DETAILS OF THE EMPLOYEES WORKING AS CLERK AND EARNING LESS THAN 1500
 select * from employee where job='CLERK' and sal<1500;
+
+
+-- .WAQTD NAME AND HIREDATE OF THE EMPLOYEES WORKING AS MANAGER IN DEPT 30
+select ename, hiredate from employee where job='MANAGER' and deptno=30;
