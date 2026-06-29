@@ -75,3 +75,6 @@ select ename, deptno ,job from employee where job='CLERK' and (deptno=10 or dept
 
 -- 12. WAQTD DETAILS OF EMPLOYEES WORKING AS CLERK OR MANAGER IN DEPT 10  
 select * from employee where (job='CLERK' or job='MANAGER') and deptno=10;
+
+-- 13. WAQTD NAMES OF EMPLOYEES WORKING IN DEPT 10 , 20 , 30 , 40
+select ename from employee where deptno= 10 or deptno=20 or deptno=30 or deptno=40;
