@@ -54,3 +54,6 @@ select * from employee where deptno=30 or job='ANALYST';
 
 -- WAQTD NAMES OF THE EMPMLOYEES WHOS SALARY IS LESS THAN 1100 AND THEIR DESIGNATION IS CLERK 
 select ename from employee where sal<1100 and job='CLERK';
+
+-- 6.WAQTD NAME AND SAL , ANNUAL SAL AND DEPTNO IF DEPTNO IS 20 EARNING MORE THAN 1100 AND ANNUAL SALARY EXCEEDS 12000
+select ename, sal, sal*12 as annual_salary, deptno from employee where deptno=20 and sal>1100 and annual_salary >12000;
