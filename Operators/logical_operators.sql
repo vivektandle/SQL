@@ -76,3 +76,7 @@ select ename from employee where hiredate = '1998-12-31' and hiredate<'1987-01-0
 
 -- WAQTD DETAILS OF EMPLOYEES EARNING MORE THAN 1250 BUT LESS THAN 3000 
 select * from employee where sal>1250 and sal<3000;
+
+-- WAQTD NAMES OF EMPLOYEES HIRED AFTER 81 INTO DEPT 10 OR 30
+select ename from employee where hiredate > '1987-12-31' and (deptno =10 or deptno=30);
+
