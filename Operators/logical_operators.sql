@@ -80,3 +80,5 @@ select * from employee where sal>1250 and sal<3000;
 -- WAQTD NAMES OF EMPLOYEES HIRED AFTER 81 INTO DEPT 10 OR 30
 select ename from employee where hiredate > '1987-12-31' and (deptno =10 or deptno=30);
 
+-- 19.WAQTD NAMES OF EMPLOYEES ALONG WITH ANNUAL SALARY FOR THE EMPLOYEES WORKING AS MANAGER OR CLERK INTO DEPT 10 OR 30 
+select ename , sal*12 as annual_salary from employee where (job='MANAGER' or job='CLERK') and (deptno=10 or deptno=30);
