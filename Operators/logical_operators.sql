@@ -19,20 +19,6 @@ select ename, sal,deptno from employee where sal>1250 and sal<4000 and deptno=20
 -- WAQTD name , job , deptno of the employees working as a manager in dept 10 or 30 .
 select ename, job , deptno from employee where job='MANAGER' or deptno=10 or deptno=30;
 
--- test messgae
--- test 2
---- test 
--- test 3
--- wehh
--- test 
--- testtt ss ff
--- test
-
--- test
-
--- test 200
-
-
 -- WAQTD name , job and deptno of the employees working as clerk or manager in dept 10 .
 select ename, job , deptno from employee where job='CLERK' or job='MANAGER' and deptno=10;
 
@@ -87,3 +73,6 @@ select * from employee where job='MANAGER' or job='SALESMAN' or job='CLERK';
 
 -- 16.WAQTD NAMES OF EMPLOYEES HIRED AFTER 81 AND BEFORE 87
 select ename from employee where hiredate = '1998-12-31' and hiredate<'1987-01-01';
+
+-- WAQTD DETAILS OF EMPLOYEES EARNING MORE THAN 1250 BUT LESS THAN 3000 
+select * from employee where sal>1250 and sal<3000;
