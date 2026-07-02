@@ -10,3 +10,9 @@ select ename, empno, sal from employee where empno in (7902, 7839) and sal>2925;
 
 -- WAQTD name and deptno of all the employees except the emp Working in dept 10 or 40 .
 select ename, deptno from employee where deptno not in (10,40);
+
+-- WAQTD name , deptno and job of the employee  working in dept 20 but not as a clerk or manager .
+select ename, deptno, job from employee where deptno =20 and job not in ('CLERK', 'MANAGER');
+
+-- WAQTD name and salary of the employees if the emp is earning Salary in the range 1000 to 3000 .
+select ename, sal from employee where sal BETWEEN 1000 and 3000;
