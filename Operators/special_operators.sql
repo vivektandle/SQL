@@ -37,3 +37,6 @@ select ename, sal, comm from employee where sal is null and comm is null;
 
 -- WAQTD name of the employee who is getting salary .
 select ename from employee where sal is not null;
+
+-- WAQTD name of the emp who gets commission .
+select ename from employee where comm is not null;
