@@ -22,3 +22,6 @@ select ename, deptno from employee where deptno=10 and hiredate between '2019-01
 
 -- WAQTD name , sal and hiredate of the employees hired during 2017 into dept 20 with a salary greater that 2000 .
 select ename, sal, hiredate from employee where  sal>2000 and deptno=20 and hiredate between '2017-01-01' and '2017-12-31';
+
+-- WAQTD name and salary of the employees if the emp is not earning Salary in the range 1000 to 3000 .
+select ename, sal from emoloyee where sal not BETWEEN 1000 and 3000;
