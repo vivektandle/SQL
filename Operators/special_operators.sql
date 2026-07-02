@@ -25,3 +25,6 @@ select ename, sal, hiredate from employee where  sal>2000 and deptno=20 and hire
 
 -- WAQTD name and salary of the employees if the emp is not earning Salary in the range 1000 to 3000 .
 select ename, sal from emoloyee where sal not BETWEEN 1000 and 3000;
+
+-- WAQTD name of the employee who is not getting salary
+select ename from employee where sal is null;
