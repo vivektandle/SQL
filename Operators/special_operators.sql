@@ -58,3 +58,6 @@ select * from employee where ename like '%S%';
 
 -- WAQTD names that starts with 'J' and ends with 'S' .
 select ename from employee where ename like 'J%'and ename like '%S';
+
+-- WAQTD names of the employee if the emp has char 'A' as his second character .
+select ename from employee where ename like '_A%';
