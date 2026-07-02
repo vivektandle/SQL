@@ -19,3 +19,6 @@ select ename, sal from employee where sal BETWEEN 1000 and 3000;
 
 -- WAQTD name and deptno of the employees working in dept 10 And hired during 2019 (the entire year of 2019) .
 select ename, deptno from employee where deptno=10 and hiredate between '2019-01-01' and '2019-12-31';
+
+-- WAQTD name , sal and hiredate of the employees hired during 2017 into dept 20 with a salary greater that 2000 .
+select ename, sal, hiredate from employee where  sal>2000 and deptno=20 and hiredate between '2017-01-01' and '2017-12-31';
