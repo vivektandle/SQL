@@ -49,3 +49,6 @@ select * from employee where ename ='SMITH';
 
 -- WAQTD details of the employee who's name starts with 'S' .
 select * from employee where ename like 'S%';   
+
+-- WAQTD details of the employee who's name ends with 'S' .
+select * from employee where ename like '%S'; 
