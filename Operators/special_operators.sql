@@ -52,3 +52,9 @@ select * from employee where ename like 'S%';
 
 -- WAQTD details of the employee who's name ends with 'S' .
 select * from employee where ename like '%S'; 
+
+-- WAQTD names of the employees who have character 'S' in their names 
+select * from employee where ename like '%S%';
+
+-- WAQTD names that starts with 'J' and ends with 'S' .
+select ename from empl
