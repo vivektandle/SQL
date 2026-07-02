@@ -46,3 +46,6 @@ select ename, sal, comm from employee where comm is null and sal is not null;
 
 -- WAQTD details of an employee whose name is SMITH
 select * from employee where ename ='SMITH';
+
+-- WAQTD details of the employee who's name starts with 'S' .
+select * from employee where ename like 'S%';   
