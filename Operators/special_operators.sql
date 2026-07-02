@@ -16,3 +16,6 @@ select ename, deptno, job from employee where deptno =20 and job not in ('CLERK'
 
 -- WAQTD name and salary of the employees if the emp is earning Salary in the range 1000 to 3000 .
 select ename, sal from employee where sal BETWEEN 1000 and 3000;
+
+-- WAQTD name and deptno of the employees working in dept 10 And hired during 2019 (the entire year of 2019) .
+select ename, deptno from employee where deptno=10 and hiredate between '2019-01-01' and '2019-12-31';
