@@ -6,3 +6,7 @@ select ename, job from employee where job in ('CLERK', 'MANAGER', 'SALESMAN');
 
 -- WAQTD empno , ename and salary of the employees whose empno Is 7902 or 7839 and getting salary more than 2925.
 select ename, empno, sal from employee where empno in (7902, 7839) and sal>2925;
+
+
+-- WAQTD name and deptno of all the employees except the emp Working in dept 10 or 40 .
+select ename, deptno from employee where deptno not in (10,40);
