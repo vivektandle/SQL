@@ -107,3 +107,6 @@ select ename from employee where comm is null and job='CLERK';
 
 -- LIST ALL THE EMPLOYEES WHO DON’T HAVE A REPORTING MANAGER IN DEPTNO 10 OR 30
 select ename from employee where mgr is null and (deptno=10 or deptno=30);
+
+-- LIST ALL THE SALESMEN IN DEPT 30 WITH SAL MORE THAN 2450
+select ename from employee where job='SALESMAN' and deptno=30 and sal>2450;
