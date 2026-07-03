@@ -64,3 +64,6 @@ select ename from employee where ename like '_A%';
 
 -- WAQTD names of the employee if the emp has char 'A' as his Third character .
 select ename from employee where ename like '__A%';
+
+-- WAQTD names of the employee if the emp has char 'A' as his second character and 'S' is last character .
+select ename from employee where ename like '_A%S';
