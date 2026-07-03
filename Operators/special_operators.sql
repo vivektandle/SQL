@@ -80,3 +80,6 @@ select ename from employee where sal like '%50';
 
 -- WAQTD names of the employees hired in November . 
 select ename from employee where hiredate like '%Nov%';
+
+-- LIST ALL THE EMPLOYEES WHO DON’T HAVE A REPORTING MANAGER
+select ename from employee where mgr is null;
