@@ -77,3 +77,6 @@ select ename from employee where ename like 'A%A';
 
 -- WAQTD names of the employee if the emp's salary's last 2 digit is 50 rupees .
 select ename from employee where sal like '%50';
+
+-- WAQTD names of the employees hired in November . 
+select ename from employee where hiredate like '%Nov%';
