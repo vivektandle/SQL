@@ -95,3 +95,6 @@ select ename from employee where ename like 'S%' or ename like 'A%';
 
 --  LIST ALL THE EMPLOYEES EXCEPT THOSE WHO ARE WORKING IN DEPT 10 & 20.
 select ename from employee where deptno=10 and deptno=20;
+
+-- LIST THE EMPLOYEES WHOSE NAME DOES NOT START WITH ‘S’
+select ename from employee where ename not like 'S%'; 
