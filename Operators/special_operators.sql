@@ -128,7 +128,7 @@ select ename, sal*0.10 from employee where mgr is not null and deptno=10
 
 -- DISPLAY ALL THE EMPLOYEE WHO ARE ‘SALESMAN’S HAVING ‘E’ AS THE LAST BUT ONE CHARACTER IN ENAME BUT SALARY HAVING EXACTLY 4 CHARACTER
 
-
+select ename from employee where job='SALESMAN' and sal like '____' and ename like '%E';
 
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED  AFTER YEAR 81
  
