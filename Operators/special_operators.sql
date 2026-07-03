@@ -130,3 +130,4 @@ select ename from employee where ename like 'M%' and ename like 'J%';
 
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED  AFTER YEAR 81
  
+--  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED IN FEB
