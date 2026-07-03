@@ -104,3 +104,6 @@ select ename from employee where mgr is not null and deptno=10;
 
 -- LIST ALL THE EMPLOYEES WHOSE COMMISSION IS NULL AND WORKING AS CLERK
 select ename from employee where comm is null and job='CLERK';
+
+-- LIST ALL THE EMPLOYEES WHO DON’T HAVE A REPORTING MANAGER IN DEPTNO 10 OR 30
+select ename from employee where mgr is null and (deptno=10 or deptno=30);
