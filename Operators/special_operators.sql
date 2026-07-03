@@ -132,7 +132,9 @@ select ename from employee where job='SALESMAN' and sal like '____' and ename li
 
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED  AFTER YEAR 81
  select ename from employee where hiredate >'1981-12-31';
- 
+
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED IN FEB
+select ename from employee where hiredate like '%FEB%';
 
 -- LIST THE EMPLOYEES WHO ARE NOT WORKING AS MANAGERS AND CLERKS IN DEPT 10 AND 20 WITH A SALARY IN THE RANGE OF 1000 TO 3000.
+select ename from employee where (job not like 'MANAGER' and job not like 'CLERKS') and (deptno=10 and deptno=20) and sal between 1000 and 3000;
