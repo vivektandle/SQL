@@ -116,3 +116,5 @@ select ename from employee where job='ANALYST' and deptno=20 and  sal>2500;
 
 -- LIST ALL THE EMPLOYEES WHOSE NAME STARTS WITH ‘M’ OR ‘J’
 select ename from employee where ename like 'M%' and ename like 'J%';
+
+-- LIST ALL THE EMPLOYEES WITH ANNUAL SALARY EXCEPT THOSE WHO ARE WORKING IN DEPT 30
