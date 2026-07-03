@@ -124,7 +124,7 @@ select ename , sal*12 from employee where deptno not like 30;
 select ename from employee where ename not like '%ES' or ename not like '%R';
 
 -- LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10 ALONG WITH 10% HIKE IN SALARY
-
+select ename, sal*0.10 from employee where mgr is not null and deptno=10  
 
 -- DISPLAY ALL THE EMPLOYEE WHO ARE ‘SALESMAN’S HAVING ‘E’ AS THE LAST BUT ONE CHARACTER IN ENAME BUT SALARY HAVING EXACTLY 4 CHARACTER
 
