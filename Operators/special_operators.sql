@@ -121,7 +121,8 @@ select ename from employee where ename like 'M%' and ename like 'J%';
 select ename , sal*12 from employee where deptno not like 30;
 
 -- LIST THE EMPLOYEES WHOSE NAME DOES NOT END WITH ‘ES’ OR ‘R’
- 
+select ename from employee where ename not like '%ES' or ename not like '%R';
+
 -- LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10 ALONG WITH 10% HIKE IN SALARY
 
 
