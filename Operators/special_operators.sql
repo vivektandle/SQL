@@ -89,3 +89,6 @@ select ename from employee where deptno=30 and job='SALESMAN';
 
 -- LIST ALL THE SALESMEN IN DEPT NUMBER 30 AND HAVING SALARY GREATER THAN 1500
 select ename from employee where deptno=30 and sal>1500;
+
+-- LIST ALL THE EMPLOYEES WHOSE NAME STARTS WITH ‘S’ OR ‘A’
+select ename from employee where ename like 'S%' or ename like 'A%';
