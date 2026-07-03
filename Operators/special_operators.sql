@@ -131,6 +131,7 @@ select ename, sal*0.10 from employee where mgr is not null and deptno=10
 select ename from employee where job='SALESMAN' and sal like '____' and ename like '%E';
 
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED  AFTER YEAR 81
+ select ename from employee where hiredate >'1981-12-31';
  
 --  DISPLAY ALL THE EMPLOYEE WHO ARE JOINED IN FEB
 
