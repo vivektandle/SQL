@@ -83,3 +83,6 @@ select ename from employee where hiredate like '%Nov%';
 
 -- LIST ALL THE EMPLOYEES WHO DON’T HAVE A REPORTING MANAGER
 select ename from employee where mgr is null;
+
+--  LIST ALL THE SALESMEN IN DEPT 30
+select ename from emp where deptno=30 and job='SALESMAN';
