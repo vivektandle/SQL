@@ -98,3 +98,6 @@ select ename from employee where deptno=10 and deptno=20;
 
 -- LIST THE EMPLOYEES WHOSE NAME DOES NOT START WITH ‘S’
 select ename from employee where ename not like 'S%'; 
+
+-- 8) LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10
+select ename from employee where mgr is not null and deptno=10;
