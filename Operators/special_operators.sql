@@ -110,3 +110,6 @@ select ename from employee where mgr is null and (deptno=10 or deptno=30);
 
 -- LIST ALL THE SALESMEN IN DEPT 30 WITH SAL MORE THAN 2450
 select ename from employee where job='SALESMAN' and deptno=30 and sal>2450;
+
+--  LIST ALL THE ANALYST IN DEPT NUMBER 20 AND HAVING SALARY GREATER THAN 2500
+select ename from employee where job='ANALYST' and deptno=20 and  sal>2500;
