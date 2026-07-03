@@ -85,4 +85,7 @@ select ename from employee where hiredate like '%Nov%';
 select ename from employee where mgr is null;
 
 --  LIST ALL THE SALESMEN IN DEPT 30
-select ename from emp where deptno=30 and job='SALESMAN';
+select ename from employee where deptno=30 and job='SALESMAN';
+
+-- LIST ALL THE SALESMEN IN DEPT NUMBER 30 AND HAVING SALARY GREATER THAN 1500
+select ename from employee where deptno=30 and sal>1500;
