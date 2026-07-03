@@ -118,3 +118,7 @@ select ename from employee where job='ANALYST' and deptno=20 and  sal>2500;
 select ename from employee where ename like 'M%' and ename like 'J%';
 
 -- LIST ALL THE EMPLOYEES WITH ANNUAL SALARY EXCEPT THOSE WHO ARE WORKING IN DEPT 30
+
+-- LIST THE EMPLOYEES WHOSE NAME DOES NOT END WITH ‘ES’ OR ‘R’
+ 
+-- LIST ALL THE EMPLOYEES WHO ARE HAVING REPORTING MANAGERS IN DEPT 10 ALONG WITH 10% HIKE IN SALARY
