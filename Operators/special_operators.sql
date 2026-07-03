@@ -70,3 +70,7 @@ select ename from employee where ename like '_A%S';
 
 -- WAQTD names of the employee if the emp has char 'A' present at at least 2 times .
 select ename from employee where ename like '%A%A%';
+
+
+-- WAQTD names of the employee if the emp name starts with 'A' and ends with 'A' .
+select ename from employee where ename like 'A%A';
