@@ -26,6 +26,7 @@ select concat('WELCOME' , ' ', ename, ' ' , 'to the company') as Display_Message
 select concat(ename, ' | ', job, ' | ', sal) as Display_Message from employee ;
 
 -- 9. Display employee details in the format: Name: SMITH, Job: CLERK
+select concat('NAME:', ' ' , ename, ',' , 'Job: ',job) as Display_Message from employee;
 
 -- 10. Display employee name followed by a fixed string. Example: SMITH is an employee
 
