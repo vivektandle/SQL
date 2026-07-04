@@ -21,3 +21,17 @@ select ename, sal+comm as total_earning from employee;
 
 -- Display employee name and salary per day assuming 30 working days in a month.
 select ename,sal/30 as Per_day_salary from employee;
+
+--  Display employee name and salary for 5 years.
+select ename, sal*12*5 as salary_for_5years from employee;
+-- Display employee name and remaining salary after deducting 15% tax.
+
+-- Display employee name and salary after adding commission.
+
+-- Display employee name and double the salary.
+
+-- Display employee name and half the salary.
+
+-- Display employee name and salary after a 25% increase.
+
+-- Display employee name and amount deducted if 5% PF is applied.
