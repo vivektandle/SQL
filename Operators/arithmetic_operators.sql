@@ -32,8 +32,10 @@ select ename, sal-sal*0.15 as Reduced_salary from employee;
 select ename, sal+comm from employee;
 
 -- Display employee name and double the salary.
+select ename , sal*2 as salary_double from employee;
 
 -- Display employee name and half the salary.
+select ename, sal/2 as half_salary from employee;
 
 -- Display employee name and salary after a 25% increase.
 
