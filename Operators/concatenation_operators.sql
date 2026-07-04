@@ -33,8 +33,9 @@ select concat(ename, ' is an employee') as Employee_Name from employee;
 
 -- 11. Display: Employee Number: 7369 Name: SMITH
 select concat('Employee Number:',' ',empno,' ', 'Name:',' ',ename) as Display_Message from employee;
--- 12. Display: SMITH's salary is 800
 
+-- 12. Display: SMITH's salary is 800
+select concat(ename,'`s',' ', 'salary is',' ' ,sal)as Display_Message from employee;
 -- 13. Display: CLERK - SMITH
 
 -- 14. Display: SMITH works in Department 20
