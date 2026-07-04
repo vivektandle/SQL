@@ -44,3 +44,4 @@ select concat(job, ' - ' , ename) as Display_Message from employee;
 select concat(ename,' ',  'works in Department', ' ', deptno) as Display_Message from employee;
 
 -- 15. Display all employee details in one column. 7369 | SMITH | CLERK | 800 | 20
+select concat(empno,' | ', ename,' | ', job,' | ', mgr,' | ', hiredate,' | ', sal,' | ', deptno) as employee_details from employee;
