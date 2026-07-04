@@ -1,3 +1,5 @@
+-- SPECIAL OPERATOR :- IN, NOT IN, BETWEEN, NOT BETWEEN, IS, IS NOT, LIKE, NOT LIKE
+
 -- WAQTD name and deptno of the employees working in dept 10 or 30 .
 select ename, deptno from employee where deptno in(10,30);
 
