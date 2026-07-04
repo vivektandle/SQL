@@ -24,7 +24,9 @@ select ename,sal/30 as Per_day_salary from employee;
 
 --  Display employee name and salary for 5 years.
 select ename, sal*12*5 as salary_for_5years from employee;
+
 -- Display employee name and remaining salary after deducting 15% tax.
+select ename, sal-sal*0.15 as Reduced_salary from employee;
 
 -- Display employee name and salary after adding commission.
 
