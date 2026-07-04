@@ -38,5 +38,6 @@ select ename , sal*2 as salary_double from employee;
 select ename, sal/2 as half_salary from employee;
 
 -- Display employee name and salary after a 25% increase.
+select ename, sal+sal*0.25 as increased_saalry from employee;
 
 -- Display employee name and amount deducted if 5% PF is applied.
