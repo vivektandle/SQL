@@ -9,3 +9,6 @@ select ename, sal-500 as reduced_Salary from employee;
 
 --  Display employee name and annual bonus, where bonus is 20% of salary 
 select ename, sal, sal*0.20 as bonus_salary from employee;
+
+-- Display employee name and monthly salary if annual salary is divided equally into 12 months  
+select ename, (sal*12)/ 12 from employee;
