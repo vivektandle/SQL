@@ -29,6 +29,7 @@ select ename, sal*12*5 as salary_for_5years from employee;
 select ename, sal-sal*0.15 as Reduced_salary from employee;
 
 -- Display employee name and salary after adding commission.
+select ename, sal+comm from employee;
 
 -- Display employee name and double the salary.
 
