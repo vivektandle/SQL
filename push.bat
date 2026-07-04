@@ -7,7 +7,7 @@ git status
 
 git add .
 
-git commit -m "Updated SQL Special Operator files"
+git commit -m "Updated SQL Arithmetic Operator files"
 
 git push origin main
 
