@@ -15,3 +15,6 @@ select ename, (sal*12)/ 12 from employee;
 
 --  Display employee name and salary after a 10% hike.
 select ename, sal+ sal*0.10 as salary_hike from employee;
+
+--  Display employee name and total earnings including commission.
+select ename, sal+comm as total_earning from employee;
