@@ -3,7 +3,9 @@
 
 -- 1. Display employee name followed by their job.
 select concat(ename, " ", job) as employee_job from employee;
+
 -- 2. Display employee name and salary in a single column.
+select concat(ename, " ", sal) as name_salary from employee; 
 
 -- 3. Display a message: Employee SMITH works as CLERK
 
