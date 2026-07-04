@@ -18,3 +18,6 @@ select ename, sal+ sal*0.10 as salary_hike from employee;
 
 --  Display employee name and total earnings including commission.
 select ename, sal+comm as total_earning from employee;
+
+-- Display employee name and salary per day assuming 30 working days in a month.
+select ename,sal/30 as Per_day_salary from employee;
