@@ -17,6 +17,7 @@ select concat(ename, " ", deptno) as name_and_dept from employee;
 select concat('[', ename ,']') as Display_Message from employee;
 
 -- 6. Display employee name and annual salary. Example: SMITH Annual Salary: 9600
+select concat(ename, ' ', 'Annual Salary:' ,' ' , sal*12) as Display_Message from employee;
 
 -- 7. Display a welcome message for each employee. Example: Welcome SMITH to the company
 
