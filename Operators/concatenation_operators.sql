@@ -20,6 +20,7 @@ select concat('[', ename ,']') as Display_Message from employee;
 select concat(ename, ' ', 'Annual Salary:' ,' ' , sal*12) as Display_Message from employee;
 
 -- 7. Display a welcome message for each employee. Example: Welcome SMITH to the company
+select concat('WELCOME' , ' ', ename, ' ' , 'to the company') as Display_Message from employee; 
 
 -- 8. Display employee name, job, and salary in one column. Example: SMITH | CLERK | 800
 
