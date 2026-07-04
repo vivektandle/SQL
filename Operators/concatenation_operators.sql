@@ -11,6 +11,7 @@ select concat(ename, " ", sal) as name_salary from employee;
 select concat('Employee' ,' ',  ename, ' ' , 'works as' , ' ',  job ) as Displayed_Message from employee;
  
 -- 4. Display employee name and department number.
+select concat(ename, " ", deptno) as name_and_dept from employee;
 
 
 -- 5. Display employee name enclosed within brackets. Example: [SMITH]
