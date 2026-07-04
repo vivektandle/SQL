@@ -23,6 +23,7 @@ select concat(ename, ' ', 'Annual Salary:' ,' ' , sal*12) as Display_Message fro
 select concat('WELCOME' , ' ', ename, ' ' , 'to the company') as Display_Message from employee; 
 
 -- 8. Display employee name, job, and salary in one column. Example: SMITH | CLERK | 800
+select concat(ename, ' | ', job, ' | ', sal) as Display_Message from employee ;
 
 -- 9. Display employee details in the format: Name: SMITH, Job: CLERK
 
