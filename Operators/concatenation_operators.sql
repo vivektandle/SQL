@@ -8,7 +8,8 @@ select concat(ename, " ", job) as employee_job from employee;
 select concat(ename, " ", sal) as name_salary from employee; 
 
 -- 3. Display a message: Employee SMITH works as CLERK
-
+select concat('Employee' ,' ',  ename, ' ' , 'works as' , ' ',  job ) as Displayed_Message from employee;
+ 
 -- 4. Display employee name and department number.
 
 
