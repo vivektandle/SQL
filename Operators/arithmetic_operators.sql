@@ -41,3 +41,4 @@ select ename, sal/2 as half_salary from employee;
 select ename, sal+sal*0.25 as increased_saalry from employee;
 
 -- Display employee name and amount deducted if 5% PF is applied.
+select ename, sal-sal*0.05 as reduced_salary from employee;
