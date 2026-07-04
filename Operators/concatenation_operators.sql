@@ -30,8 +30,9 @@ select concat('NAME:', ' ' , ename, ',' , 'Job: ',job) as Display_Message from e
 
 -- 10. Display employee name followed by a fixed string. Example: SMITH is an employee
 select concat(ename, ' is an employee') as Employee_Name from employee;
--- 11. Display: Employee Number: 7369 Name: SMITH
 
+-- 11. Display: Employee Number: 7369 Name: SMITH
+select concat('Employee Number:',' ',empno,' ', 'Name:',' ',ename) as Display_Message from employee;
 -- 12. Display: SMITH's salary is 800
 
 -- 13. Display: CLERK - SMITH
