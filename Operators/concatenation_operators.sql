@@ -1,5 +1,8 @@
 --  CONCATENATION OPERATOR :- ( || )
---  || in mysql treated as logical OR 
+--  || in mysql treated as logical OR so we use concat()
+--  || in oracle sql treated as concatenation operator
+-- In Oracle, example: select 'Hi' || ename FROM employee WHERE job ='MANAGER' ; 
+-- displays the messgae as Hi SMITH for all employees.
 
 -- 1. Display employee name followed by their job.
 select concat(ename, " ", job) as employee_job from employee;
@@ -45,3 +48,4 @@ select concat(ename,' ',  'works in Department', ' ', deptno) as Display_Message
 
 -- 15. Display all employee details in one column. 7369 | SMITH | CLERK | 800 | 20
 select concat(empno,' | ', ename,' | ', job,' | ', mgr,' | ', hiredate,' | ', sal,' | ', deptno) as employee_details from employee;
+
