@@ -30,3 +30,5 @@ select * from employee where comm = 500;
 -- WAQTD details of employees whose designation is PRESIDENT.
 select * from employee where job='PRESIDENT';
 
+-- WAQTD names of employees who are not reporting to manager 7698.
+select ename, mgr from employee where mgr!=7698;
