@@ -21,3 +21,6 @@ select ename from employee where job != 'MANAGER';
 -- WAQTD details of employees whose salary is not 1250.
 select * from employee where sal != 1250;
 
+-- WAQTD names and jobs of employees who are not SALESMAN.
+select ename from employee where job != 'SALESMAN';
+
