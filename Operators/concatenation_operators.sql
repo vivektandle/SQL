@@ -4,8 +4,10 @@
 -- In Oracle, example: select 'Hi' || ename FROM employee WHERE job ='MANAGER' ; 
 -- displays the messgae as Hi SMITH for all employees.
 
+-- Problems on Concatenation Operator:
+
 -- 1. Display employee name followed by their job.
-select concat(ename, " ", job) as employee_job from employee;
+select concat(ename, "  ", job) as employee_job from employee;
 
 -- 2. Display employee name and salary in a single column.
 select concat(ename, " ", sal) as name_salary from employee; 
