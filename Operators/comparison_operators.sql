@@ -27,3 +27,6 @@ select ename from employee where job != 'SALESMAN';
 -- WAQTD details of employees whose commission is equal to 500.
 select * from employee where comm = 500; 
 
+-- WAQTD details of employees whose designation is PRESIDENT.
+select * from employee where job='PRESIDENT';
+
