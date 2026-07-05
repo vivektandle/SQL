@@ -57,3 +57,7 @@ select ename , sal from employee where sal<=1250;
 
 -- WAQTD details of employees who are working in departments greater than or equal to 20.
 select * from employee where deptno>=20;
+
+
+-- WAQTD names, jobs, and salaries of employees whose salary is greater than 2500.
+select ename, job, sal from employee where sal>2500;
