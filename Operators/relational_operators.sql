@@ -53,3 +53,7 @@ select * from employee where mgr<7800;
 
 -- WAQTD names and salaries of employees whose salary is less than or equal to 1250.
 select ename , sal from employee where sal<=1250;
+
+
+-- WAQTD details of employees who are working in departments greater than or equal to 20.
+select * from employee where deptno>=20;
