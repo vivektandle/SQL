@@ -45,3 +45,7 @@ select ename from employee where deptno<=20;
 
 -- WAQTD employee names and jobs whose salary is greater than or equal to 3000.
 select ename , job from employee where sal >= 3000;
+
+
+-- WAQTD details of employees whose manager number is less than 7800.
+select * from employee where mgr<7800; 
