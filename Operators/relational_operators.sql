@@ -14,3 +14,7 @@ select ename, sal from employee where sal<1500;
 -- WAQTD details of employees whose commission is greater than or equal to 500.
 select * from employee where comm >= 500;
  
+ 
+ 
+-- WAQTD names of employees whose department number is less than or equal to 20.
+select ename from employee where deptno<=20;
