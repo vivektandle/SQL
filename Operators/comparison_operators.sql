@@ -14,3 +14,7 @@ select ename, sal from employee where sal=3000;
 -- WAQTD details of employees who are not working in department 20.
 select * from employee where deptno != 20;
 
+
+-- WAQTD names of employees whose job is not MANAGER.
+select ename from employee where job != 'MANAGER';
+
