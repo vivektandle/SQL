@@ -24,3 +24,6 @@ select * from employee where sal != 1250;
 -- WAQTD names and jobs of employees who are not SALESMAN.
 select ename from employee where job != 'SALESMAN';
 
+-- WAQTD details of employees whose commission is equal to 500.
+select * from employee where comm = 500; 
+
