@@ -7,7 +7,7 @@ git status
 
 git add .
 
-git commit -m "Updated SQL COMPARISION OPERATOR file"
+git commit -m "Updated SQL Relational Operator file"
 
 git push origin main
 
