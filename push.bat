@@ -7,7 +7,7 @@ git status
 
 git add .
 
-git commit -m "Updated SQL Relational Operator file"
+git commit -m "Updated SQL DDL file"
 
 git push origin main
 
