@@ -16,7 +16,8 @@
 -- 2. Rename:  
 -- Syntax: RENAME Table_Name TO New_Name ; 
 
--- 3. Alter
+-- 3. Alter: 
+		-- 1. To add a column: Alter table table_name 
 
 -- 4. Truncate
 -- 5. Drop
