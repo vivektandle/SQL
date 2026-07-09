@@ -39,3 +39,6 @@
 
 -- 5. Drop command: 
 -- 					Syntax: DROP TABLE Table_Name ; 
+
+
+-- 6. TO RECOVER THE TABLE :
