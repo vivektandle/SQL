@@ -31,3 +31,8 @@ update employee set sal=sal*1.10 where sal<2000 and job='SALESMAN';
 
 -- 6. WAQ TO delete the employees who don’t earn commission.
 delete from employee where comm is null;
+
+
+-- 7. WAQ to remove all the employees hired before 1987 in dept 20
+delete from employee where hiredate< '1987-01-01' and deptno=20;
+
