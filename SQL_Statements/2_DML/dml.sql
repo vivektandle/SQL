@@ -21,7 +21,5 @@ select * from employee;
 update employee set job='PRESIDENT' where ename='KING';
 
 
--- 4. WAQT to change name of ALLEN to ALLEN MORGAN .
--- 5. WAQT hike the salary of the employee to 10% . If employees earn less than 2000 as a salesman .
--- 6. WAQ TO delete the employees who don’t earn commission .
--- 7. WAQ to remove all the employees hired before 1987 in dept 20
+-- 4. WAQT to change name of ALLEN to ALLEN MORGAN.
+update employee set ename='ALLEN MORGAN' where ename='ALLEN';
