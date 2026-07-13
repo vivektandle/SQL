@@ -55,3 +55,7 @@ update employee set sal=sal*1.15;
 
 -- 13. Write a query to change the job of employee SMITH to ANALYST.
 update employee set job='ANALYST' where ename='SMITH';
+
+
+-- 14. Write a query to update the department number of employee ALLEN from 30 to 20.
+update employee set deptno=20 where deptno=30;
