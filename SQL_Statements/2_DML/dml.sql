@@ -72,3 +72,8 @@ delete from employee where sal<1500;
 
 -- 17. Write a query to delete employees working in department 40.
 delete from employee where deptno=40;
+
+
+-- 18. Delete all employees who do not earn any commission.
+delete from employee where comm=0;
+
