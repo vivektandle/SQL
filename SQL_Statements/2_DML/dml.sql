@@ -77,3 +77,6 @@ delete from employee where deptno=40;
 -- 18. Delete all employees who do not earn any commission.
 delete from employee where comm=0;
 
+
+-- 19. Update the commission of all SALESMAN to 500.
+update employee set comm=500 where job='SALESMAN';
