@@ -63,3 +63,8 @@ update employee set deptno=20 where deptno=30;
 
 -- 15. Write a query to increase the salary of all MANAGERs by ₹5000.
 update employee set sal=sal+5000 where job='MANAGER';
+
+
+
+-- 16. Write a query to delete all employees whose salary is less than 1500.
+delete from employee where sal<1500;
