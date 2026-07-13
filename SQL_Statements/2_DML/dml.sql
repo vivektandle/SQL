@@ -88,3 +88,10 @@ insert into employee (ename, job,sal,deptno) values('KIRAN', 'MANAGER', 6000,20)
 
 -- 21. Delete employees hired before 01-JAN-1985.
 delete from employee where hiredate <'1985-01-01';
+
+
+-- 22. Increase the salary of employees in department 10 by 10%.
+update employee set sal=sal*1.10 where deptno=10;
+
+
+
