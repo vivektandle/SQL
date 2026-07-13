@@ -23,3 +23,7 @@ update employee set job='PRESIDENT' where ename='KING';
 
 -- 4. WAQT to change name of ALLEN to ALLEN MORGAN.
 update employee set ename='ALLEN MORGAN' where ename='ALLEN';
+
+
+-- 5. WAQT hike the salary of the employee to 10% . If employees earn less than 2000 as a salesman.
+update employee set sal=sal*1.10 where sal<2000 and job='SALESMAN';
