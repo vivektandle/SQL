@@ -36,8 +36,13 @@ delete from employee where comm is null;
 -- 7. WAQ to remove all the employees hired before 1987 in dept 20
 delete from employee where hiredate< '1987-01-01' and deptno=20;
 
--- Write a query to insert a new employee with EmpNo 1010, Name RAHUL, Job CLERK, Salary 2500, DeptNo 10.
+-- 8. Write a query to insert a new employee with EmpNo 1010, Name RAHUL, Job CLERK, Salary 2500, DeptNo 10.
 INSERT INTO employee (EmpNo, EName, Job,Sal, DeptNo) VALUES (1010, 'RAHUL', 'CLERK', 2500, 10);
 
--- Write a query to insert a new department (50, 'TRAINING', 'BANGALORE') into the department table.
+-- 9.  Write a query to insert a new department (50, 'TRAINING', 'BANGALORE') into the department table.
 insert into dept (deptno, dname, loc ) values (50,'TRAINING','BANGALORE');
+
+
+-- 10. Write a query to insert an employee ANITA as a SALESMAN with salary 1800 and commission 300.
+insert into employee (empno, ename, job, sal, comm) values (1010,'ANITA', 'SALESMAN', 1800, 300);
+
