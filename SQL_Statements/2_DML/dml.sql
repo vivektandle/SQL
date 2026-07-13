@@ -27,3 +27,7 @@ update employee set ename='ALLEN MORGAN' where ename='ALLEN';
 
 -- 5. WAQT hike the salary of the employee to 10% . If employees earn less than 2000 as a salesman.
 update employee set sal=sal*1.10 where sal<2000 and job='SALESMAN';
+
+
+-- 6. WAQ TO delete the employees who don’t earn commission.
+delete from employee where comm is null;
