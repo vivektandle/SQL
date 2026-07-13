@@ -50,4 +50,8 @@ insert into employee (empno, ename, job, sal, comm) values (1010,'ANITA', 'SALES
 -- 11. Write a query to insert a record into the student table with values: RollNo: 101, Name: Vivek , Course: CSE, Marks: 85
 insert into student (rollno,name,course,marks) values(101, 'VIVEK','CSE', 85);
 
+-- 12. Write a query to increase the salary of all employees by 15%.
+update employee set sal=sal*1.15;
 
+-- 13. Write a query to change the job of employee SMITH to ANALYST.
+update employee set job='ANALYST' where ename='SMITH';
