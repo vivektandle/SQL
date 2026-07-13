@@ -42,3 +42,7 @@
 
 
 -- 6. TO RECOVER THE TABLE :
+-- 					Syntax: Flashback table table_name to before drop;
+
+-- 7. To delete the table from Bin folder:
+-- 					Syntax: Purge table table_name;
