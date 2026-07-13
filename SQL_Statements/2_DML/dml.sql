@@ -46,3 +46,8 @@ insert into dept (deptno, dname, loc ) values (50,'TRAINING','BANGALORE');
 -- 10. Write a query to insert an employee ANITA as a SALESMAN with salary 1800 and commission 300.
 insert into employee (empno, ename, job, sal, comm) values (1010,'ANITA', 'SALESMAN', 1800, 300);
 
+
+-- 11. Write a query to insert a record into the student table with values: RollNo: 101, Name: Vivek , Course: CSE, Marks: 85
+insert into student (rollno,name,course,marks) values(101, 'VIVEK','CSE', 85);
+
+
