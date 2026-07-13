@@ -11,15 +11,11 @@
 -- 1. WAQT update the salary of employee to double their salary if He is working as a manager .
 update employee set sal= sal/2 where job='MANAGER';
 
-
 -- 2. WAQT change the name of SMITH to SMIITH .
 update employee set ename = 'SMIITH' where ename='SMITH';
 
-select * from employee; 
-
 -- 3. WAQT modify the job of KING to 'PRESIDENT' .
 update employee set job='PRESIDENT' where ename='KING';
-
 
 -- 4. WAQT to change name of ALLEN to ALLEN MORGAN.
 update employee set ename='ALLEN MORGAN' where ename='ALLEN';
@@ -41,7 +37,6 @@ INSERT INTO employee (EmpNo, EName, Job,Sal, DeptNo) VALUES (1010, 'RAHUL', 'CLE
 
 -- 9.  Write a query to insert a new department (50, 'TRAINING', 'BANGALORE') into the department table.
 insert into dept (deptno, dname, loc ) values (50,'TRAINING','BANGALORE');
-
 
 -- 10. Write a query to insert an employee ANITA as a SALESMAN with salary 1800 and commission 300.
 insert into employee (empno, ename, job, sal, comm) values (1010,'ANITA', 'SALESMAN', 1800, 300);
