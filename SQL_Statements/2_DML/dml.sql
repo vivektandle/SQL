@@ -68,3 +68,7 @@ update employee set sal=sal+5000 where job='MANAGER';
 
 -- 16. Write a query to delete all employees whose salary is less than 1500.
 delete from employee where sal<1500;
+
+
+-- 17. Write a query to delete employees working in department 40.
+delete from employee where deptno=40;
