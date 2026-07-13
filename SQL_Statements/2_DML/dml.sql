@@ -84,3 +84,7 @@ update employee set comm=500 where job='SALESMAN';
 
 -- 20. Insert a new employee named KIRAN as a MANAGER with salary 6000 in department 20.
 insert into employee (ename, job,sal,deptno) values('KIRAN', 'MANAGER', 6000,20);
+
+
+-- 21. Delete employees hired before 01-JAN-1985.
+delete from employee where hiredate <'1985-01-01';
