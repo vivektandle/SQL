@@ -80,3 +80,7 @@ delete from employee where comm=0;
 
 -- 19. Update the commission of all SALESMAN to 500.
 update employee set comm=500 where job='SALESMAN';
+
+
+-- 20. Insert a new employee named KIRAN as a MANAGER with salary 6000 in department 20.
+insert into employee (ename, job,sal,deptno) values('KIRAN', 'MANAGER', 6000,20);
