@@ -59,3 +59,7 @@ update employee set job='ANALYST' where ename='SMITH';
 
 -- 14. Write a query to update the department number of employee ALLEN from 30 to 20.
 update employee set deptno=20 where deptno=30;
+
+
+-- 15. Write a query to increase the salary of all MANAGERs by ₹5000.
+update employee set sal=sal+5000 where job='MANAGER';
