@@ -347,4 +347,55 @@ MODIFY salary DECIMAL(10,2) NOT NULL;
 ALTER TABLE department
 MODIFY dname VARCHAR(50) NOT NULL;
 
+-- 4. Make phone NOT NULL
+ALTER TABLE customer
+MODIFY phone VARCHAR(15) NOT NULL;
+
+-- 5. Allow NULL values in city
+ALTER TABLE customer
+MODIFY city VARCHAR(50) NULL;
+
+-- 6. Make project_name NOT NULL
+ALTER TABLE project
+MODIFY project_name VARCHAR(100) NOT NULL;
+
+-- 7. Allow NULL values in author
+ALTER TABLE library
+MODIFY author VARCHAR(60) NULL;
+
+-- 8. Make customer_name NOT NULL
+ALTER TABLE customer
+MODIFY customer_name VARCHAR(50) NOT NULL;
+
+-- 9. Allow NULL values in budget
+ALTER TABLE project
+MODIFY budget DECIMAL(12,2) NULL;
+
+-- 10. Make title NOT NULL
+ALTER TABLE library
+MODIFY title VARCHAR(100) NOT NULL;
+
+-- 8. TRUNCATE TABLE – 10 Questions
+-- 1. Remove all records from employee
+TRUNCATE TABLE employee;
+
+-- 2. Remove all records from student
+TRUNCATE TABLE student;
+
+-- 3. Remove all records from department
+TRUNCATE TABLE department;
+
+-- 4. Remove all records from customer
+TRUNCATE TABLE customer;
+
+-- 5. Remove all records from product
+TRUNCATE TABLE product;
+
+-- 6. Remove all records from orders
+TRUNCATE TABLE orders;
+
+-- 7. Remove all records from library
+TRUNCATE TABLE library;
+
+
 
