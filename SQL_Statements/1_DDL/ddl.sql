@@ -439,6 +439,68 @@ DROP TABLE college;
 -- 10. Delete the project table
 DROP TABLE project;
 
+-- 10. FLASHBACK TABLE (Oracle)
+-- 1. Recover the dropped employee table
+FLASHBACK TABLE employee TO BEFORE DROP;
 
+-- 2. Recover the dropped student table
+FLASHBACK TABLE student TO BEFORE DROP;
+
+-- 3. Recover the dropped department table
+FLASHBACK TABLE department TO BEFORE DROP;
+
+-- 4. Recover the dropped customer table
+FLASHBACK TABLE customer TO BEFORE DROP;
+
+-- 5. Recover the dropped product table
+FLASHBACK TABLE product TO BEFORE DROP;
+
+-- 6. Recover the dropped orders table
+FLASHBACK TABLE orders TO BEFORE DROP;
+
+-- 7. Recover the dropped library table
+FLASHBACK TABLE library TO BEFORE DROP;
+
+-- 8. Recover the dropped hospital table
+FLASHBACK TABLE hospital TO BEFORE DROP;
+
+-- 9. Recover the dropped college table
+FLASHBACK TABLE college TO BEFORE DROP;
+
+-- 10. Recover the dropped project table
+FLASHBACK TABLE project TO BEFORE DROP;
+
+
+
+-- 11. PURGE TABLE (Oracle)
+-- 1. Permanently delete the dropped employee table from Recycle Bin.
+PURGE TABLE employee;
+
+-- 2. Permanently delete the dropped student table from Recycle Bin.
+PURGE TABLE student;
+
+-- 3. Permanently delete the dropped department table from Recycle Bin.
+PURGE TABLE department;
+
+-- 4. Permanently delete the dropped customer table from Recycle Bin.
+PURGE TABLE customer;
+
+-- 5. Permanently delete the dropped product table from Recycle Bin.
+PURGE TABLE product;
+
+-- 6. Permanently delete the dropped orders table from Recycle Bin.
+PURGE TABLE orders;
+
+-- 7. Permanently delete the dropped library table from Recycle Bin.
+PURGE TABLE library;
+
+-- 8. Permanently delete the dropped hospital table from Recycle Bin.
+PURGE TABLE hospital;
+
+-- 9. Permanently delete the dropped college table from Recycle Bin.
+PURGE TABLE college;
+
+-- 10. Permanently delete the dropped project table from Recycle Bin.
+PURGE TABLE project;
 
 
