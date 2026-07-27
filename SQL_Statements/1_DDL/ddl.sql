@@ -52,3 +52,9 @@
 -- 1. CREATE TABLE:
 -- 1. Create a table employee with empno, ename, job, salary, and deptno.
 create table employee (empno integer primary, ename string not null , job string , salary float , deptno integer);
+
+-- 2. Create a table department with deptno, dname, and location.
+create table department (deptno integer primary, dname string ,location string);
+
+
+
