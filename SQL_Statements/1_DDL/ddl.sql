@@ -181,6 +181,19 @@ ALTER TABLE hospital
 ADD gender VARCHAR(10);
 
 
+-- 6. Add a manager_id column to department
+ALTER TABLE department
+ADD manager_id INT;
+
+-- 7. Add an address column to college
+ALTER TABLE college
+ADD address VARCHAR(200);
+
+-- 8. Add a publisher column to library
+ALTER TABLE library
+ADD publisher VARCHAR(100);
+
+
 
 
 
