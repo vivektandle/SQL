@@ -68,3 +68,13 @@ CREATE TABLE student (
     marks INT
 );
 
+-- 4. Create a table customer with customer_id, customer_name, phone, and city.
+CREATE TABLE customer (
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(50),
+    phone VARCHAR(15),
+    city VARCHAR(50)
+);
+
+
+
