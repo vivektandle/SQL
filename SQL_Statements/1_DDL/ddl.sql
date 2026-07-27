@@ -347,4 +347,21 @@ MODIFY salary NUMBER(10,2) NOT NULL;
 ALTER TABLE department
 MODIFY dname VARCHAR2(50) NOT NULL;
 
+-- 4. Make phone NOT NULL
+ALTER TABLE customer
+MODIFY phone VARCHAR2(15) NOT NULL;
+
+-- 5. Allow NULL values in city
+ALTER TABLE customer
+MODIFY city VARCHAR2(50) NULL;
+
+-- 6. Make project_name NOT NULL
+ALTER TABLE project
+MODIFY project_name VARCHAR2(100) NOT NULL;
+
+-- 7. Allow NULL values in author
+ALTER TABLE library
+MODIFY author VARCHAR2(60) NULL;
+
+
 
