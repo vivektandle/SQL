@@ -202,7 +202,3 @@ ALTER TABLE orders
 ADD discount DECIMAL(5,2);
 
 
-
-
-
-
