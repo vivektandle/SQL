@@ -76,5 +76,14 @@ CREATE TABLE customer (
     city VARCHAR(50)
 );
 
+-- 5. Create a table product with product_id, product_name, price, and quantity.
+CREATE TABLE product (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(50),
+    price DECIMAL(10,2),
+    quantity INT
+);
+
+
 
 
