@@ -265,6 +265,29 @@ RENAME COLUMN phone TO mobile_number;
 ALTER TABLE product
 RENAME COLUMN price TO product_price;
 
+-- 5. Rename city to location
+ALTER TABLE customer
+RENAME COLUMN city TO location;
+
+-- 6. Rename title to book_title
+ALTER TABLE library
+RENAME COLUMN title TO book_title;
+
+-- 7. Rename doctor_name to doctor
+ALTER TABLE hospital
+RENAME COLUMN doctor_name TO doctor;
+
+-- 8. Rename ranking to college_rank
+ALTER TABLE college
+RENAME COLUMN ranking TO college_rank;
+
+-- 9. Rename budget to project_budget
+ALTER TABLE project
+RENAME COLUMN budget TO project_budget;
+
+-- 10. Rename order_date to purchase_date
+ALTER TABLE orders
+RENAME COLUMN order_date TO purchase_date;
 
 
 
