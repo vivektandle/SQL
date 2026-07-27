@@ -158,6 +158,15 @@ RENAME TABLE college TO institutions;
 RENAME TABLE project TO projects;
 
 
+-- 3. ALTER TABLE (ADD COLUMN)
+-- 1. Add an email column to employee
+ALTER TABLE employee
+ADD email VARCHAR(100);
+
+-- 2. Add a phone column to student
+ALTER TABLE student
+ADD phone VARCHAR(15);
+
 
 
 
