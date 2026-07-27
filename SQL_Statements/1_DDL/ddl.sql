@@ -364,4 +364,14 @@ ALTER TABLE library
 MODIFY author VARCHAR2(60) NULL;
 
 
+-- 8. Make customer_name NOT NULL
+ALTER TABLE customer
+MODIFY customer_name VARCHAR2(50) NOT NULL;
 
+-- 9. Allow NULL values in budget
+ALTER TABLE project
+MODIFY budget NUMBER(12,2) NULL;
+
+-- 10. Make title NOT NULL
+ALTER TABLE library
+MODIFY title VARCHAR2(100) NOT NULL;
