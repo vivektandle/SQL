@@ -337,41 +337,14 @@ MODIFY course VARCHAR2(50);
 -- 7. ALTER TABLE (MODIFY NULL / NOT NULL)
 -- 1. Make ename NOT NULL
 ALTER TABLE employee
-MODIFY ename VARCHAR2(50) NOT NULL;
+MODIFY ename VARCHAR(50) NOT NULL;
 
 -- 2. Make salary NOT NULL
 ALTER TABLE employee
-MODIFY salary NUMBER(10,2) NOT NULL;
+MODIFY salary DECIMAL(10,2) NOT NULL;
 
 -- 3. Make dname NOT NULL
 ALTER TABLE department
-MODIFY dname VARCHAR2(50) NOT NULL;
-
--- 4. Make phone NOT NULL
-ALTER TABLE customer
-MODIFY phone VARCHAR2(15) NOT NULL;
-
--- 5. Allow NULL values in city
-ALTER TABLE customer
-MODIFY city VARCHAR2(50) NULL;
-
--- 6. Make project_name NOT NULL
-ALTER TABLE project
-MODIFY project_name VARCHAR2(100) NOT NULL;
-
--- 7. Allow NULL values in author
-ALTER TABLE library
-MODIFY author VARCHAR2(60) NULL;
+MODIFY dname VARCHAR(50) NOT NULL;
 
 
--- 8. Make customer_name NOT NULL
-ALTER TABLE customer
-MODIFY customer_name VARCHAR2(50) NOT NULL;
-
--- 9. Allow NULL values in budget
-ALTER TABLE project
-MODIFY budget NUMBER(12,2) NULL;
-
--- 10. Make title NOT NULL
-ALTER TABLE library
-MODIFY title VARCHAR2(100) NOT NULL;
