@@ -407,3 +407,38 @@ TRUNCATE TABLE college;
 TRUNCATE TABLE project;
 
 
+
+-- 9. DROP TABLE 
+-- 1. Delete the employee table
+DROP TABLE employee;
+
+-- 2. Delete the student table
+DROP TABLE student;
+
+-- 3. Delete the department table
+DROP TABLE department;
+
+-- 4. Delete the customer table
+DROP TABLE customer;
+
+-- 5. Delete the product table
+DROP TABLE product;
+
+-- 6. Delete the orders table
+DROP TABLE orders;
+
+-- 7. Delete the library table
+DROP TABLE library;
+
+-- 8. Delete the hospital table
+DROP TABLE hospital;
+
+-- 9. Delete the college table
+DROP TABLE college;
+
+-- 10. Delete the project table
+DROP TABLE project;
+
+
+
+
