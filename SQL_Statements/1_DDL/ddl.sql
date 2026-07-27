@@ -397,5 +397,13 @@ TRUNCATE TABLE orders;
 -- 7. Remove all records from library
 TRUNCATE TABLE library;
 
+-- 8. Remove all records from hospital
+TRUNCATE TABLE hospital;
+
+-- 9. Remove all records from college
+TRUNCATE TABLE college;
+
+-- 10. Remove all records from project
+TRUNCATE TABLE project;
 
 
