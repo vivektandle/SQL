@@ -202,3 +202,16 @@ ALTER TABLE orders
 ADD discount DECIMAL(5,2);
 
 
+
+
+
+-- 4. ALTER TABLE (DROP COLUMN)		
+-- 1. Remove the email column from employee
+ALTER TABLE employee
+DROP COLUMN email;
+
+-- 2. Remove the phone column from student
+ALTER TABLE student
+DROP COLUMN phone;
+
+
