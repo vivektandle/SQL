@@ -291,3 +291,26 @@ RENAME COLUMN order_date TO purchase_date;
 
 
 
+-- 6. ALTER TABLE (MODIFY DATATYPE)
+-- 1. Change ename from VARCHAR2(20) to VARCHAR2(50)
+ALTER TABLE employee
+MODIFY ename VARCHAR2(50);
+
+-- 2. Change sname from VARCHAR2(30) to VARCHAR2(100)
+ALTER TABLE student
+MODIFY sname VARCHAR2(100);
+
+-- 3. Change phone from VARCHAR2(10) to VARCHAR2(15)
+ALTER TABLE customer
+MODIFY phone VARCHAR2(15);
+
+-- 4. Change price from NUMBER to NUMBER(10,2)
+ALTER TABLE product
+MODIFY price NUMBER(10,2);
+
+-- 5. Change salary from NUMBER(8,2) to NUMBER(10,2)
+ALTER TABLE employee
+MODIFY salary NUMBER(10,2);
+
+
+
