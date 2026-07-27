@@ -177,4 +177,75 @@ ALTER TABLE product
 ADD stock INT;
 
 
+-- 5. Add a gender column to hospital
+ALTER TABLE hospital
+ADD gender VARCHAR(10);
+
+
+-- 6. Add a manager_id column to department
+ALTER TABLE department
+ADD manager_id INT;
+
+-- 7. Add an address column to college
+ALTER TABLE college
+ADD address VARCHAR(200);
+
+-- 8. Add a publisher column to library
+ALTER TABLE library
+ADD publisher VARCHAR(100);
+
+-- 9. Add a deadline column to project
+ALTER TABLE project
+ADD deadline DATE;
+
+-- 10. Add a discount column to orders
+ALTER TABLE orders
+ADD discount DECIMAL(5,2);
+
+
+
+
+
+-- 4. ALTER TABLE (DROP COLUMN)		
+-- 1. Remove the email column from employee
+ALTER TABLE employee
+DROP COLUMN email;
+
+-- 2. Remove the phone column from student
+ALTER TABLE student
+DROP COLUMN phone;
+
+
+
+-- 3. Remove the dob column from customer
+ALTER TABLE customer
+DROP COLUMN dob;
+
+-- 4. Remove the stock column from product
+ALTER TABLE product
+DROP COLUMN stock;
+
+-- 5. Remove the gender column from hospital
+ALTER TABLE hospital
+DROP COLUMN gender;
+
+-- 6. Remove the manager_id column from department
+ALTER TABLE department
+DROP COLUMN manager_id;
+
+-- 7. Remove the address column from college
+ALTER TABLE college
+DROP COLUMN address;
+
+-- 8. Remove the publisher column from library
+ALTER TABLE library
+DROP COLUMN publisher;
+
+-- 9. Remove the deadline column from project
+ALTER TABLE project
+DROP COLUMN deadline;
+
+-- 10. Remove the discount column from orders
+ALTER TABLE orders
+DROP COLUMN discount;
 
