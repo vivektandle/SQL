@@ -123,3 +123,14 @@ CREATE TABLE project (
     start_date DATE
 );
 
+
+
+-- 2. RENAME TABLE
+-- 1. Rename student to students
+RENAME TABLE student TO students;
+
+-- 2. Rename employee to emp
+RENAME TABLE employee TO emp;
+
+-- 3. Rename department to dept
+RENAME TABLE department TO dept;
