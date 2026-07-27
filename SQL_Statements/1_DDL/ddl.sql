@@ -193,6 +193,15 @@ ADD address VARCHAR(200);
 ALTER TABLE library
 ADD publisher VARCHAR(100);
 
+-- 9. Add a deadline column to project
+ALTER TABLE project
+ADD deadline DATE;
+
+-- 10. Add a discount column to orders
+ALTER TABLE orders
+ADD discount DECIMAL(5,2);
+
+
 
 
 
