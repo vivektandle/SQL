@@ -168,5 +168,19 @@ ALTER TABLE student
 ADD phone VARCHAR(15);
 
 
+-- 3. Add a dob column to customer
+ALTER TABLE customer
+ADD dob DATE;
+
+-- 4. Add a stock column to product
+ALTER TABLE product
+ADD stock INT;
+
+-- 5. Add a gender column to hospital
+ALTER TABLE hospital
+ADD gender VARCHAR(10);
+
+
+
 
 
