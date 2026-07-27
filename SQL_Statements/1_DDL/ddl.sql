@@ -333,3 +333,18 @@ ALTER TABLE student
 MODIFY course VARCHAR2(50);
 
 
+
+-- 7. ALTER TABLE (MODIFY NULL / NOT NULL)
+-- 1. Make ename NOT NULL
+ALTER TABLE employee
+MODIFY ename VARCHAR2(50) NOT NULL;
+
+-- 2. Make salary NOT NULL
+ALTER TABLE employee
+MODIFY salary NUMBER(10,2) NOT NULL;
+
+-- 3. Make dname NOT NULL
+ALTER TABLE department
+MODIFY dname VARCHAR2(50) NOT NULL;
+
+
