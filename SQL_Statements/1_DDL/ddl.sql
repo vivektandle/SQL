@@ -84,6 +84,42 @@ CREATE TABLE product (
     quantity INT
 );
 
+-- 6. Create a table orders with order_id, order_date, and customer_id.
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY,
+    order_date DATE,
+    customer_id INT
+);
 
+-- 7. Create a table library with book_id, title, author, and price.
+CREATE TABLE library (
+    book_id INT PRIMARY KEY,
+    title VARCHAR(100),
+    author VARCHAR(50),
+    price DECIMAL(10,2)
+);
 
+-- 8. Create a table hospital with patient_id, patient_name, disease, and doctor_name.
+CREATE TABLE hospital (
+    patient_id INT PRIMARY KEY,
+    patient_name VARCHAR(50),
+    disease VARCHAR(100),
+    doctor_name VARCHAR(50)
+);
+
+-- 9. Create a table college with college_id, college_name, city, and ranking.
+CREATE TABLE college (
+    college_id INT PRIMARY KEY,
+    college_name VARCHAR(100),
+    city VARCHAR(50),
+    ranking INT
+);
+
+-- 10. Create a table project with project_id, project_name, budget, and start_date.
+CREATE TABLE project (
+    project_id INT PRIMARY KEY,
+    project_name VARCHAR(100),
+    budget DECIMAL(12,2),
+    start_date DATE
+);
 
