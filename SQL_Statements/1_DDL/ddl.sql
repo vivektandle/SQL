@@ -312,5 +312,24 @@ MODIFY price NUMBER(10,2);
 ALTER TABLE employee
 MODIFY salary NUMBER(10,2);
 
+-- 6. Change city from VARCHAR2(20) to VARCHAR2(50)
+ALTER TABLE customer
+MODIFY city VARCHAR2(50);
+
+-- 7. Change author from VARCHAR2(30) to VARCHAR2(60)
+ALTER TABLE library
+MODIFY author VARCHAR2(60);
+
+-- 8. Change budget from NUMBER(8) to NUMBER(12,2)
+ALTER TABLE project
+MODIFY budget NUMBER(12,2);
+
+-- 9. Change project_name from VARCHAR2(30) to VARCHAR2(100)
+ALTER TABLE project
+MODIFY project_name VARCHAR2(100);
+
+-- 10. Change course from VARCHAR2(20) to VARCHAR2(50)
+ALTER TABLE student
+MODIFY course VARCHAR2(50);
 
 
