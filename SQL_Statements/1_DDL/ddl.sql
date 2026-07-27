@@ -176,42 +176,5 @@ ADD dob DATE;
 ALTER TABLE product
 ADD stock INT;
 
--- 5. Add a gender column to hospital
-ALTER TABLE hospital
-ADD gender VARCHAR(10);
-
-
--- 6. Add a manager_id column to department
-ALTER TABLE department
-ADD manager_id INT;
-
--- 7. Add an address column to college
-ALTER TABLE college
-ADD address VARCHAR(200);
-
--- 8. Add a publisher column to library
-ALTER TABLE library
-ADD publisher VARCHAR(100);
-
--- 9. Add a deadline column to project
-ALTER TABLE project
-ADD deadline DATE;
-
--- 10. Add a discount column to orders
-ALTER TABLE orders
-ADD discount DECIMAL(5,2);
-
-
-
-
-
--- 4. ALTER TABLE (DROP COLUMN)		
--- 1. Remove the email column from employee
-ALTER TABLE employee
-DROP COLUMN email;
-
--- 2. Remove the phone column from student
-ALTER TABLE student
-DROP COLUMN phone;
 
 
