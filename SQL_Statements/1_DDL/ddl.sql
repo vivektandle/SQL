@@ -215,8 +215,6 @@ DROP COLUMN email;
 ALTER TABLE student
 DROP COLUMN phone;
 
-
-
 -- 3. Remove the dob column from customer
 ALTER TABLE customer
 DROP COLUMN dob;
@@ -248,4 +246,25 @@ DROP COLUMN deadline;
 -- 10. Remove the discount column from orders
 ALTER TABLE orders
 DROP COLUMN discount;
+
+
+-- 5. ALTER TABLE (RENAME COLUMN) 
+-- 1. Rename ename to employee_name
+ALTER TABLE employee
+RENAME COLUMN ename TO employee_name;
+
+-- 2. Rename sname to student_name
+ALTER TABLE student
+RENAME COLUMN sname TO student_name;
+
+-- 3. Rename phone to mobile_number
+ALTER TABLE customer
+RENAME COLUMN phone TO mobile_number;
+
+-- 4. Rename price to product_price
+ALTER TABLE product
+RENAME COLUMN price TO product_price;
+
+
+
 
