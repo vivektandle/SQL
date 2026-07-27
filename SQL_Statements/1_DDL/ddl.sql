@@ -134,3 +134,22 @@ RENAME TABLE employee TO emp;
 
 -- 3. Rename department to dept
 RENAME TABLE department TO dept;
+
+
+-- 4. Rename customer to customers
+RENAME TABLE customer TO customers;
+
+-- 5. Rename product to products
+RENAME TABLE product TO products;
+
+-- 6. Rename orders to order_details
+RENAME TABLE orders TO order_details;
+
+-- 7. Rename library to books
+RENAME TABLE library TO books;
+
+
+
+
+
+
