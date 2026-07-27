@@ -51,10 +51,20 @@
 
 -- 1. CREATE TABLE:
 -- 1. Create a table employee with empno, ename, job, salary, and deptno.
-create table employee (empno integer primary, ename string not null , job string , salary float , deptno integer);
+create table employee ( empno INT PRIMARY KEY,   ename VARCHAR(50) NOT NULL, job VARCHAR(50), salary DECIMAL(10,2), deptno INT);
 
 -- 2. Create a table department with deptno, dname, and location.
-create table department (deptno integer primary, dname string ,location string);
+CREATE TABLE department (
+    deptno INT PRIMARY KEY,
+    dname VARCHAR(50),
+    location VARCHAR(50)
+);
 
-
+-- 3. Create a table student with rollno, sname, course, and marks.
+CREATE TABLE student (
+    rollno INT PRIMARY KEY,
+    sname VARCHAR(50),
+    course VARCHAR(50),
+    marks INT
+);
 
