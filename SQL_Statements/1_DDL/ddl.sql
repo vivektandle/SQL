@@ -148,6 +148,14 @@ RENAME TABLE orders TO order_details;
 -- 7. Rename library to books
 RENAME TABLE library TO books;
 
+-- 8. Rename hospital to patients
+RENAME TABLE hospital TO patients;
+
+-- 9. Rename college to institutions
+RENAME TABLE college TO institutions;
+
+-- 10. Rename project to projects
+RENAME TABLE project TO projects;
 
 
 
